@@ -1,0 +1,110 @@
+/*ここからヘッド */
+div#header{
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  border-bottom: solid 2px #000000;
+  background-color: #003366;
+}
+
+div#title {
+  font-size: 90%;
+  color:#CC0000;
+  height:150px;
+  float: left;
+  width:70%;
+   text-shadow: 1px 2px 3px black;
+}
+
+h1 {
+  padding: 20px 20px;
+}
+
+div#navi {
+  height:150px;
+  width:30%;
+  color:#FF66CC;
+  float:right;
+  text-align: right;
+}
+
+div#navi li {
+  font-size: 120%;
+  list-style:none;
+  float: right;
+  padding: 100px 20px 0 20px;
+  text-shadow: 1px 2px 3px black;
+}
+
+div#navi a:link {
+   color:  #CC0000;
+   text-decoration: none;
+ }
+
+ div#navi a:visited {
+   color: #CC0000;
+   text-decoration: underline;
+ }
+
+ div#navi a:hover {
+   color: #FFF;
+   text-decoration: none;
+ }
+
+/*ここからメインエリア*/
+ div#main_area {
+   padding: 160px 0 0 0;
+   height:800px;
+   background-color: #222222;
+   color:white;
+   text-align:center;
+ }
+
+div#form_area {
+  background-color: white;
+  height:600px;
+  width:80%;
+  padding-top: 70px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 50px;
+}
+
+div#form_area p {
+  color:black;
+  padding-top: 10px;
+}
+
+div#form_area input {
+  margin-top: 20px;
+  margin-right: 10px;
+  height:30px;
+  font-size: 15px;
+}
+
+div#form_area textarea{
+    vertical-align:top;
+    font-size: 15px;
+}
+
+input#button  {
+      display: inline-block;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      background: #668ad8;
+      color: #FFF;
+      border-bottom: solid 4px #627295;
+      border-radius: 3px;
+      width:120px;
+      height:240px;
+      margin: 0 auto;
+      padding: 0;
+}
+
+div#button_area{
+ text-align: center;
+}
+
+* {
+  margin: 0;
+}
