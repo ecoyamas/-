@@ -5,7 +5,7 @@ function disp(){
 }
 
 
-var id = "1st";
+var id ='1st'
 　   document.getElementById(id).textContent=3*3+1*1;
 var id = "2nd";
 　   document.getElementById(id).textContent=3*2+1*2;
